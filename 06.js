@@ -12,7 +12,7 @@ const { BinarySearchTree } = require("./DS");
 // EJERCICIO 6
 
 // Implementar la función searchMaxTwo que busque en nuestro arbol binario los dos valores maximos
-// y los retorne en un array.
+// y los retorne en un array..
 // Ejemplo:
 //             16
 //          /      \
