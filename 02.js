@@ -12,12 +12,12 @@ Ejemplo:
     lista.simplifyList();
     Ahora la lista resultante es: Head --> [2] --> [5] --> [1] --> [7] --> null
 ACLARACIÓN: Se debe reemplazar la lista original por la nueva.
-Pista: Podes usar el metodo search() ya incorporado dentro del prototype de LinkedList
+Pista: Podes usar el metodo search() ya incorporado dentro del prototype de LinkedList.
   */
  
 LinkedList.prototype.simplifyList= function(){
 // Tu código aca:
-if(this.head === null){
+ if(this.head === null){
     return false;
 }
 let current = this.head;

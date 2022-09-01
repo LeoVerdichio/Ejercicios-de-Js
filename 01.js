@@ -9,11 +9,11 @@ const { LinkedList } = require('./DS');
    Ejemplo:
      Suponiendo que la lista actual es: Head --> [8] --> [12] --> [3] --> [16]
      LinkedList.sortList();
-     Ahora la lista quedaría: Head --> [16] --> [12] --> [8] --> [3]
+     Ahora la lista quedaría: Head --> [16] --> [12] --> [8] --> [3] .
 */
 
   LinkedList.prototype.sortList = function(){
-    if(this.head === null){
+     if(this.head === null){
         return false;
     }
     let current = this.head;

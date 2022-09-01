@@ -18,11 +18,11 @@ const { Stack } = require("./DS");
 //   ✔️crearStack("EJ*EMP*LO") => [E,E,M,L,O]
 //   ✔️crearStack("OTR**OEJEM***PL*O") => [O,O,E,P,O]
 //   ✔️crearStack("") => false
-//   ✔️crearStack("RET****ORNA**R*FA*L**SO") => "Stack vacío"
+//   ✔️crearStack("RET****ORNA**R*FA*L**SO") => "Stack vacío".
 
 function crearStack(palabra) {
   // Tu código aca:
-  if(palabra === ""){
+   if(palabra === ""){
     return false;
   }
 

@@ -36,13 +36,13 @@ const { BinarySearchTree } = require("./DS");
 // ✔️ Si el método recibe una palabra de tamaño igual a una palabra
 // ya existente, debe retornar false.
 // ✔️ La palabra debe insertarse en el lugar correspondiente y, de ser así,
-// retornar el string que ha sido insertado
+// retornar el string que ha sido insertado.
 
 BinarySearchTree.prototype.insertWord = function (palabra) {
   // Tu código aca:
 
 
-  if(palabra===""){
+   if(palabra===""){
     return false;
   }
 

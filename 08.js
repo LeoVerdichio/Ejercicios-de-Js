@@ -46,11 +46,11 @@ function countDeep(arr) {
  
 }
 countDeepinner(arr);
-  return Math.pow((array-number)*string/boolean,undefined1);
+   return Math.pow((array-number)*string/boolean,undefined1);
 
   
 }
 
-// No modifiques nada debajo de esta linea //
+// No modifiques nada debajo de esta linea.//
 
 module.exports = countDeep;

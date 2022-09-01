@@ -4,7 +4,7 @@ const { BinarySearchTree } = require("./DS");
   Importante: 
   No modificar ni el nombre ni los argumetos que reciben las funciones, sólo deben escribir
   código dentro de las funciones ya definidas. 
-  No comentar la funcion 
+  No comentar la funcion .
 */
 
 // ---- Arboles Binarios ----
@@ -28,12 +28,12 @@ BinarySearchTree.prototype.searchMaxTwo = function () {
  
   // Tu código aca:
 
+
+
+
+
   
-
-
-
-  
-}
+ }
 
 // No modifiques nada debajo de esta linea //
 

@@ -8,12 +8,12 @@ const { LinkedList } = require("./DS");
   En caso de que la lista esté vacía, retornar 0
   Ejemplo:
   Dada esta lista: [4] --> [2] --> [7] -- > null
-  LinkedList.count() --> 13
+  LinkedList.count() --> 13.
 */
 
 LinkedList.prototype.count = function () {
   // Tu código aca:
-  if (this.head === null) {
+   if (this.head === null) {
     return 0;
 }
 let current = this.head;

@@ -20,7 +20,7 @@ function insertAndSort(array, obj) {
       if (array[j]>array[j+1]) {
         var valor=array[j+1]; //
         var valor1=array[j];
-        array[j]=valor;                //array[j+1];
+        array[j]=valor;                
         array[j+1]=valor1;
       }
       

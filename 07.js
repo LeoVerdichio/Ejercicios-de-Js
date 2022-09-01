@@ -4,7 +4,7 @@
   código dentro de las funciones ya definidas. 
   No comentar la funcion 
 */
-// ---- Recursión ----
+// ---- Recursión -----
 // EJERCICIO 9
 // Implementar la función restArray: a partir de un array en el cual cada posición puede ser un único
 // número u otro array anidado de números, determinar la suma de todos los números contenidos en el array.
@@ -21,7 +21,7 @@ var restArray = function (array) {
   // Tu código acá
   var suma = 0;
   for (var i = 0; i < array.length; i++) {
-    if (Array.isArray(array[i])) {
+     if (Array.isArray(array[i])) {
       let contador=0;
       contador++;
       suma += restArray(array[i]);
