@@ -8,7 +8,28 @@
 
 function insertAndSort(array, obj) {
   // Tu código acá
+  //var array2=[];
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      const element = obj[key];
+      array.push(element);
+    }
+  }
 
+ for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < (array.length -i -1); j++) {
+      if (array[j]>array[j+1]) {
+        var valor=array[j+1]; //
+        var valor1=array[j];
+        array[j]=valor;                //array[j+1];
+        array[j+1]=valor1;
+      }
+      
+    }
+  
+    
+  }
+  return array;
 }
 
 //⚠️ NO MODIFICAR NADA POR DEBAJO DE ESTA LÍNEA ⚠️
