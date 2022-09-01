@@ -46,12 +46,7 @@ BinarySearchTree.prototype.insertWord = function (palabra) {
     return false;
   }
 
-  if(this.root===null){
-    this.root=new Node(palabra);
-    return palabra;
-  }
-
-  let current=this.root
+  
 
   if (palabra.length === this.value.length) {
     return false;
@@ -63,14 +58,14 @@ BinarySearchTree.prototype.insertWord = function (palabra) {
     if (!this.right) {
      this.right=new BinarySearchTree(palabra);
     }else{
-     this.right.insert(palabra);
+     this.right.insertWord(palabra);
     }
 
    }else{
      if (!this.left) {
        this.left=new BinarySearchTree(palabra);
      }else{
-       this.left.insert(palabra);
+       this.left.insertWord(palabra);
      }
    }
   

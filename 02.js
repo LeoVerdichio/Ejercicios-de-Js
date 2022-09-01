@@ -22,7 +22,7 @@ if(this.head === null){
 }
 let current = this.head;
 let temp;
-while(current.next !== null){
+while(current.next){
     if(this.search(current.next.value)){
         temp = current.next;
         current.next = current.next.next;
@@ -30,10 +30,11 @@ while(current.next !== null){
     }else{
         current = current.next;
     }
+   
+
 }
 return this;
 }
-
 // No modifiques nada debajo de esta linea //
 module.exports = {
   LinkedList
