@@ -8,7 +8,6 @@
 
 function insertAndSort(array, obj) {
   // Tu código acá
-  //var array2=[];
   for (const key in obj) {
     if (obj.hasOwnProperty(key)) {
       const element = obj[key];
